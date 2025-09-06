@@ -3,6 +3,11 @@ import SITE_INFO from "@/config";
 import "./Reward.less";
 ---
 
+// 在网站底部插入以下代码即可集成网站分析仪表板
+<script
+	defer
+	src="https://16e22ba3.cloudflare-831.pages.dev/tracker.min.js"
+	data-website-id="自定义网站唯一标识"></script>;
 {
 	SITE_INFO.Reward.AliPay && SITE_INFO.Reward.WeChat && (
 		<section class="vh-reward">
@@ -16,7 +21,8 @@ import "./Reward.less";
 				)}
 				{SITE_INFO.Reward.WeChat && (
 					<span class="wechat">
-						<img src={SITE_INFO.Reward.WeChat} alt="微信打赏" /> 微信
+						<img src={SITE_INFO.Reward.WeChat} alt="微信打赏" />{" "}
+						微信
 					</span>
 				)}
 			</div>

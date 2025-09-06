@@ -17,70 +17,6 @@ const ArticleData = { "@context": "https://schema.org", "@type": "BlogPosting", 
 import "@/styles/Base.less";
 ---
 
-<<<<<<< HEAD
-// 在网站底部插入以下代码即可集成网站分析仪表板
-<script
-	defer
-	src="https://16e22ba3.cloudflare-831.pages.dev/tracker.min.js"
-	data-website-id="自定义网站唯一标识"></script>;
-
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta
-	name="viewport"
-	content="width=device-width,initial-scale=1,user-scalable=no"
-/>
-<title>{Title ? `${Title} | ${SiteName}` : `${SiteName} - ${Subtitle}`}</title>
-<meta
-	name="keywords"
-	content={(Keywords || ["Astro", "分享", "博客"]).join(", ")}
-/>
-<meta name="description" content={Description} />
-<meta
-	name="format-detection"
-	content="telephone=no, email=no, date=no, address=no"
-/>
-<!-- 元数据 -->
-<meta name="title" content={WebTitle} />
-<meta name="site" content={Site} />
-<meta name="author" content={Author} />
-<meta name="generator" content={Astro.generator} />
-<meta name="robots" content="index, follow, max-image-preview:large" />
-<meta itemprop="image" content={WebCover} />
-<!-- Open Graph -->
-<meta property="article:author" content={Author} />
-<meta property="og:type" content={PageCover ? "article" : "website"} />
-<meta property="og:site_name" content={SiteName} />
-<meta property="og:title" content={WebTitle} />
-<meta property="og:description" content={Description} />
-<meta property="og:url" content={canonicalURL} />
-<meta property="og:image" content={WebCover} />
-<meta property="og:locale" content="zh_CN" />
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content={SiteName} />
-<meta name="twitter:creator" content={Author} />
-<meta name="twitter:title" content={WebTitle} />
-<meta name="twitter:description" content={Description} />
-<meta name="twitter:url" content={canonicalURL} />
-<meta name="twitter:image" content={WebCover} />
-<!-- 输出结构化数据 -->
-<script
-	type="application/ld+json"
-	set:html={JSON.stringify(PageCover ? ArticleData : WebSiteData)}
-	is:inline
-/>
-<!-- Sitemap -->
-<link rel="sitemap" href="/sitemap-index.xml" />
-<!-- DNS预解析 -->
-{DNSOptimization.map((url: string) => <link rel="dns-prefetch" href={url} />)}
-{DNSOptimization.map((url: string) => <link rel="preconnect" href={url} />)}
-<!-- LINK 标签 -->
-<link rel="canonical" href={canonicalURL} />
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-<slot />
-=======
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -126,4 +62,3 @@ import "@/styles/Base.less";
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 	<slot />
 </head>
->>>>>>> parent of e08c092 (Update Head.astro)

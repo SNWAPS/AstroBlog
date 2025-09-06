@@ -16,5 +16,5 @@ Web Watermark是一款在线的网页版可离线使用的安全的图片添加�
 
 ### 页面截图
 
-![](http://spawns.top/picgo/banner.png)
+![](https://pub-04baeb2841724182b0bdf9896e612da8.r2.dev/picgo/banner.png)
 ### 项目地址

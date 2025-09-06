@@ -10,7 +10,7 @@ export default {
   // 网站作者
   Author: '𝑺𝑷𝑨𝑾𝑵𝑺',
   // 作者头像
-  Avatar: 'http://spawns.top/picgo/头像.jpg',
+  Avatar: 'https://pub-04baeb2841724182b0bdf9896e612da8.r2.dev/picgo/%E5%A4%B4%E5%83%8F.jpg',
   // 网站座右铭
   Motto: '运气是计划之外的东西.',
   // Cover 网站缩略图
@@ -32,7 +32,7 @@ export default {
     // 其他页面高度
     PageHeight: '28.88rem',
     // 背景
-    background: "url('http://spawns.top/picgo/banner.png') no-repeat center 60%/cover",
+    background: "url('https://pub-04baeb2841724182b0bdf9896e612da8.r2.dev/picgo/banner.png') no-repeat center 60%/cover",
   },
   // 博客主题配置
   Theme: {

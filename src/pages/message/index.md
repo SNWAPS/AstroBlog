@@ -1,11 +1,11 @@
 ---
 title: "留言"
 h1: "留言板 🌸"
-desc: "快友之事莫若谈。"
+desc: "暂时留不了"
 layout: "@/layouts/ToolLayout/ToolLayout.astro"
 type: "message"
 ---
 
-:::note{type="info"}
-期待你的畅所欲言～
+:::note{type="error"}
+所以请保持沉默
 :::

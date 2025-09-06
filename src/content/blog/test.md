@@ -20,8 +20,4 @@ Web Watermark是一款在线的网页版可离线使用的安全的图片添加�
 
 ![Web Watermark](https://i0.wp.com/uxiaohan.github.io/v2/2024/11/1732174890.webp)
 
-::btn[点击体验]{link="https://watermark.vvhan.com/"}
-
 ### 项目地址
-
-::btn[WebWatermark - Github]{link="https://github.com/uxiaohan/WebWatermark"}

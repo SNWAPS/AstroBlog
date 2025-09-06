@@ -55,10 +55,10 @@ export default {
     { text: '朋友', link: '/links', icon: 'Nav_friends' },
     { text: '圈子', link: '/friends', icon: 'Nav_rss' },
     { text: '动态', link: '/talking', icon: 'Nav_talking' },
-    { text: '昔日', link: '/archives', icon: 'Nav_archives' },
+    { text: '空', link: '', target: true, icon: 'Nav_link' },
     { text: '留言', link: '/message', icon: 'Nav_message' },
+    { text: '更新记录', link: '/archives', icon: 'Nav_archives' },
     { text: '关于', link: '/about', icon: 'Nav_about' },
-    { text: 'API', link: 'https://api.vvhan.com/', target: true, icon: 'Nav_link' },
   ],
   // 侧边栏个人网站
   WebSites: [
@@ -106,7 +106,7 @@ export default {
     }
   },
   // Han Analytics 统计（https://github.com/uxiaohan/HanAnalytics）
-  HanAnalytics: { enable: true, server: 'https://analytics.vvhan.com', siteId: 'Hello-HanHexoBlog' },
+  HanAnalytics: { enable: true, server: 'https://c419643d.cloudflare-831.pages.dev', siteId: 'Hello-HanHexoBlog' },
   // Google 广告
   GoogleAds: {
     ad_Client: '', //ca-pub-xxxxxx

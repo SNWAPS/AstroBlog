@@ -125,18 +125,13 @@ export default {
     // 是否展示分类
     CategoriesShow: true,
     // 是否展示标签
-    TagsShow: true,
+    TagsShow: false,
     // 是否展示推荐文章
     recommendArticleShow: true
   },
   // DNS预解析地址
   DNSOptimization: [
-    'https://i0.wp.com',
-    'https://cn.cravatar.com',
-    'https://analytics.vvhan.com',
-    'https://vh-api.4ce.cn',
-    'https://registry.npmmirror.com',
-    'https://pagead2.googlesyndication.com'
+    'https://cdn.jsdelivr.net',
   ],
   // 博客音乐组件解析接口
   vhMusicApi: 'https://vh-api.4ce.cn/blog/meting',
@@ -152,16 +147,6 @@ export default {
       enable: false,
       serverURL: ''
     }
-  },
-  // Han Analytics 统计（https://github.com/uxiaohan/HanAnalytics）
-  HanAnalytics: { enable: true, server: 'https://c419643d.cloudflare-831.pages.dev', siteId: 'Hello-HanHexoBlog' },
-  // Google 广告
-  GoogleAds: {
-    ad_Client: '', //ca-pub-xxxxxx
-    // 侧边栏广告(不填不开启)
-    asideAD_Slot: `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-xxxxxx" data-ad-slot="xxxxxx" data-ad-format="auto" data-full-width-responsive="true"></ins>`,
-    // 文章页广告(不填不开启)
-    articleAD_Slot: `<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-xxxxxx" data-ad-slot="xxxxxx" data-ad-format="auto" data-full-width-responsive="true"></ins>`
   },
   // 文章内赞赏码
   Reward: {

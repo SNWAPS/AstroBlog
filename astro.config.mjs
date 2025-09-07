@@ -21,7 +21,7 @@ export default defineConfig({
 	integrations: [swup({
 		theme: false,
 		animationClass: "vh-animation-",
-		containers: [".main-inner>.main-inner-content",'.vh-header>.main'],
+		containers: [".main-inner>.main-inner-content", '.vh-header>.main'],
 		smoothScrolling: true,
 		progress: true,
 		cache: true,
@@ -31,7 +31,7 @@ export default defineConfig({
 		updateBodyClass: false,
 		globalInstance: true
 	}),
-	Compress({ CSS: false, Image: false, Action: { Passed: async () => true } }),
+	Compress({ CSS: false, Image: true, Action: { Passed: async () => true } }),
 	sitemap({
 		changefreq: 'weekly', priority: 0.7, lastmod: new Date(),
 		// 处理末尾带 / 的 url

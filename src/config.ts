@@ -4,7 +4,7 @@ export default {
   // 网站地址
   Site: 'https://www.spawns.cn',
   // 网站副标题
-  Subtitle: '不曾与你分享的时间,我在进步.',
+  Subtitle: '世事难料，且行且珍惜',
   // 网站描述
   Description: 'SPAWNS的博客 专注于配电自动化与相关技术的理论分享，涵盖配电网一二次电气设备的系统运行原理以及维保方法等，并涉及IEC104协议、IEC101协议、GOOSE协议、Modbus协议、Linux、Docker等领域。',
   // 网站作者

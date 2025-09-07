@@ -33,8 +33,6 @@ import { checkComment, commentInit } from "@/scripts/Comment";
 import initMobileSidebar from "@/scripts/MobileSidebar";
 // Google 广告
 import GoogleAdInit from "@/scripts/GoogleAd";
-// Han Analytics 统计
-import HanAnalyticsInit from "@/scripts/HanAnalytics";
 //  谷歌 SEO 推送
 import SeoPushInit from "@/scripts/SeoPush";
 // SmoothScroll 滚动优化
@@ -77,8 +75,6 @@ const indexInit = async (only: boolean = true) => {
   SeoPushInit();
   // 文章评论初始化
   checkComment() && commentInit(checkComment(), commentLIst)
-  // Han Analytics 统计
-  HanAnalyticsInit();
   // 打字效果
   only && TypeWriteInit();
   // 泡泡🫧效果
@@ -108,6 +104,6 @@ export default () => {
     MusicList.forEach((i: any) => i.destroy());
     MusicList.length = 0;
   });
-  console.log("%c🌻 程序：Astro | 主题：vhAstro-Theme | 作者：Han | Github：https://github.com/uxiaohan/vhAstro-Theme 🌻", "color:#fff; background: linear-gradient(270deg, #18d7d3, #68b7dd, #8695e6, #986fee); padding: 8px 15px; border-radius: 8px");
+  console.log("%c🌻 哗哗哗🌻", "color:#fff; background: linear-gradient(270deg, #18d7d3, #68b7dd, #8695e6, #986fee); padding: 8px 15px; border-radius: 8px");
   console.log("%c\u521D\u59CB\u5316\u5B8C\u6BD5.", "color: #ffffff; background: #000; padding:5px");
 }

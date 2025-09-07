@@ -1,3 +1,6 @@
+// 全站滚动条美化
+import "overlayscrollbars/overlayscrollbars.css";
+import { OverlayScrollbars } from "overlayscrollbars";
 import { inRouter, outRouter } from "@/utils/updateRouter";
 // Banner 打字效果
 import TypeWriteInit from "@/scripts/TypeWrite";
@@ -86,6 +89,8 @@ const indexInit = async (only: boolean = true) => {
 export default () => {
   // 首次初始化
   indexInit();
+  // 全站滚动条美化（body）
+  OverlayScrollbars(document.body, { scrollbars: { autoHide: "leave", autoHideDelay: 500, autoHideSuspend: false } });
   // 进入页面时触发
   inRouter(() => indexInit(false));
   // 离开当前页面时触发

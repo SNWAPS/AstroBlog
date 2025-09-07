@@ -4,7 +4,7 @@ categories: TEST
 tags:
   - test
 id: TEST
-cover: "https://pub-04baeb2841724182b0bdf9896e612da8.r2.dev/picgo/home-banner.jpg"
+cover: ""
 date: 2024-11-21 15:32:51
 recommend: true
 top: true

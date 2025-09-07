@@ -16,5 +16,5 @@ type: "links"
 name: 韩小韩博客
 link: https://www.vvhan.com/
 avatar: https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640
-desc: 运气是计划之外的东西.
+desc: 运气是计划之外的12.
 ```

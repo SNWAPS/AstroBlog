@@ -6,7 +6,7 @@ export default {
   // 网站副标题
   Subtitle: '不曾与你分享的时间,我在进步.',
   // 网站描述
-  Description: 'SPAWNS的博客 专注于配电自动化与相关技术的理论分享，涵盖IEC104协议、IEC101协议等，并涉及GOOSE协议、Modbus协议、Linux、Docker等领域。',
+  Description: 'SPAWNS的博客 专注于配电自动化与相关技术的理论分享，涵盖配电网一二次电气设备的系统运行原理以及维保方法等，并涉及IEC104协议、IEC101协议、GOOSE协议、Modbus协议、Linux、Docker等领域。',
   // 网站作者
   Author: '𝑺𝑷𝑨𝑾𝑵𝑺',
   // 作者头像
@@ -16,7 +16,7 @@ export default {
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
   // 网站侧边栏公告 (不填写即不开启)
-  Tips: '<p>欢迎光临我的博客 🎉</p><p>这里会分享我的日常和学习中的收集、整理及总结，希望能对你有所帮助:) 💖</p>',
+  Tips: '<p>🎉欢迎光临 </p><p>这是应该是一个有营养的网站 我尽量不让它变得那么无聊💖</p>',
   // 首页打字机文案列表
   TypeWriteList: [
     '不曾与你分享的时间,我在进步.',
@@ -51,24 +51,22 @@ export default {
   // 导航栏 (新窗口打开 newWindow: true)
   Navs: [
     // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可 <不需要文件后缀名>（封装了 SVG 组件 为了极致压缩 SVG）
-    // 建议使用 https://tabler.io/icons 直接下载 SVG
-    { text: '朋友', link: '/links', icon: 'Nav_friends' },
-    { text: '圈子', link: '/friends', icon: 'Nav_rss' },
-    { text: '动态', link: '/talking', icon: 'Nav_talking' },
-    { text: '空', link: '', target: true, icon: 'Nav_link' },
-    { text: '留言', link: '/message', icon: 'Nav_message' },
+    // 建议使用 https://tabler.io/icons 直接下载 SVG.
+    { text: '外链分享', link: '/friends', icon: 'Nav_link' },
+    { text: '日常', link: '/talking', icon: 'Nav_talking' },
+    { text: '留言板', link: '/message', icon: 'Nav_message' },
     { text: '更新记录', link: '/archives', icon: 'Nav_archives' },
-    { text: '关于', link: '/about', icon: 'Nav_about' },
+    { text: '关于我', link: '/about', icon: 'Nav_about' },
   ],
   // 侧边栏个人网站
   WebSites: [
     // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可 <不需要文件后缀名>（封装了 SVG 组件 为了极致压缩 SVG）
     // 建议使用 https://tabler.io/icons 直接下载 SVG
-    { text: 'Github', link: 'https://github.com/uxiaohan', icon: 'WebSite_github' },
-    { text: '韩小韩API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
-    { text: '每日热榜', link: 'https://hot.vvhan.com', icon: 'WebSite_hot' },
+    { text: 'Github', link: 'https://github.com/SNWAPS', icon: 'WebSite_github' },
+    { text: '韩小韩API', link: '', icon: 'WebSite_api' },
+    { text: '每日热榜', link: '', icon: 'WebSite_hot' },
     { text: '骤雨重山图床', link: 'https://wp-cdn.4ce.cn', icon: 'WebSite_img' },
-    { text: 'HanAnalytics', link: 'https://analytics.vvhan.com', icon: 'WebSite_analytics' },
+    { text: 'HanAnalytics', link: '', icon: 'WebSite_analytics' },
   ],
   // 侧边栏展示
   AsideShow: {

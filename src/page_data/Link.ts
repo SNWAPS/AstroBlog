@@ -6,7 +6,7 @@ export default {
     {
       "name": "SPAWNS的博客",
       "link": "https://www.spawns.cn/",
-      "avatar": "https://q1.qlogo.cn/g?b=qq&nk=1655466387&s=640",
+      "avatar": "/assets/images/tx.webp",
       "descr": "运气是计划之外的东西."
     },
   ]

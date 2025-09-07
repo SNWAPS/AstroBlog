@@ -131,7 +131,7 @@ export default {
   },
   // DNS预解析地址
   DNSOptimization: [
-    'https://cdn.jsdelivr.net',
+    'https://pub-04baeb2841724182b0bdf9896e612da8.r2.dev',
   ],
   // 博客音乐组件解析接口
   vhMusicApi: 'https://vh-api.4ce.cn/blog/meting',

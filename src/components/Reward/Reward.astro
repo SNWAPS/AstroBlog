@@ -4,19 +4,19 @@ import "./Reward.less";
 ---
 
 {
-	SITE_INFO.Reward.AliPay && SITE_INFO.Reward.WeChat && (
+	SITE_INFO.Reward.douyin && SITE_INFO.Reward.WeChat && (
 		<section class="vh-reward">
 			<p>喜欢这篇文章嘛，觉得文章不错的话，奖励奖励我！</p>
 			<div class="reward-list">
-				{SITE_INFO.Reward.AliPay && (
-					<span class="alipay">
-						<img src={SITE_INFO.Reward.AliPay} alt="支付宝打赏" />
-						支付宝
+				{SITE_INFO.Reward.douyin && (
+					<span class="douyin">
+						<img src={SITE_INFO.Reward.douyin} alt="抖音好友" />
+						抖音
 					</span>
 				)}
 				{SITE_INFO.Reward.WeChat && (
 					<span class="wechat">
-						<img src={SITE_INFO.Reward.WeChat} alt="微信打赏" />{" "}
+						<img src={SITE_INFO.Reward.WeChat} alt="微信好友" />{" "}
 						微信
 					</span>
 				)}

@@ -117,9 +117,9 @@ export default {
   },
   // 文章内赞赏码
   Reward: {
-    // 支付宝收款码
-    AliPay: '/assets/images/alipay.webp',
-    // 微信收款码
+    // 抖音好友
+    douyin: '/assets/images/douyin.webp',
+    // 微信好友
     WeChat: '/assets/images/wechat.webp'
   },
   // 访问网页 自动推送到搜索引擎

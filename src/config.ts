@@ -155,6 +155,9 @@ export default {
   // DNS预解析地址
   DNSOptimization: [
     'https://pub-04baeb2841724182b0bdf9896e612da8.r2.dev',
+    'https://www.spawns.top/',
+    'https://www.spawns.cc/',
+    'https://www.spawns.cn/'
   ],
   // 博客音乐组件解析接口
   vhMusicApi: 'https://vh-api.4ce.cn/blog/meting',
@@ -167,8 +170,8 @@ export default {
     },
     // Waline 评论
     Waline: {
-      enable: false,
-      serverURL: ''
+      enable: true,
+      serverURL: 'https://www.spawns.top/'
     }
   },
   // 文章内赞赏码

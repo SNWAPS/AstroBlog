@@ -17,7 +17,7 @@ export default {
       "tags": [
         "1"
       ],
-      "content": "test"
+      "content": "test<p class=\"vh-img-flex\"><img src=\"http://spawns.top/picgo/微信图片_20230324175903.png\" > </p>"
     }
   ]
 }

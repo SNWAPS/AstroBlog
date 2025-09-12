@@ -129,6 +129,7 @@ export default {
     { text: '日常', link: '/talking', icon: 'Nav_talking' },
     { text: '留言板', link: '/message', icon: 'Nav_message' },
     { text: '更新记录', link: '/archives', icon: 'Nav_archives' },
+    { text: '知识库', link: 'https://www.spawns.cc/', icon: 'WebSite_hot' },
     { text: '关于我', link: '/about', icon: 'Nav_about' },
   ],
   // 侧边栏个人网站

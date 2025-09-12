@@ -171,7 +171,7 @@ export default {
     // Waline 评论
     Waline: {
       enable: true,
-      serverURL: 'https://www.spawns.top/'
+      serverURL: 'https://waline.spawns.cn/'
     }
   },
   // 文章内赞赏码

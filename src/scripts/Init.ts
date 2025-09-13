@@ -4,7 +4,7 @@ import { OverlayScrollbars } from "overlayscrollbars";
 import { inRouter, outRouter } from "@/utils/updateRouter";
 // Banner 打字效果
 import TypeWriteInit from "@/scripts/TypeWrite";
-// 泡泡🫧效果
+// 泡泡效果
 import PaoPaoInit from "@/scripts/PaoPao";
 // 初始化文章代码块
 import codeInit from "@/scripts/Code";

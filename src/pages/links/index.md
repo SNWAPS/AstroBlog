@@ -1,6 +1,6 @@
 ---
-title: "友情链接"
-h1: "朋友圈 👭"
+title: "外部链接"
+h1: "外部链接⚡"
 desc: ""
 layout: "@/layouts/ToolLayout/ToolLayout.astro"
 type: "links"

@@ -4,8 +4,14 @@ export default {
   // api 为空则使用 data 静态数据
   data: [
     {
-      "name": "SPAWNS的博客",
+      "name": "SPAWNS的Blog",
       "link": "https://www.spawns.cn/",
+      "avatar": "/assets/images/tx.webp",
+      "descr": "运气是计划之外的东西."
+    },
+    {
+      "name": "SPAWNS的数据库",
+      "link": "https://www.spawns.cc/",
       "avatar": "/assets/images/tx.webp",
       "descr": "运气是计划之外的东西."
     },

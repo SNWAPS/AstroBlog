@@ -31,7 +31,7 @@ cover: "封面图URL (为空默认随机内置封面 /public/assets/images/banne
 const init = async () => {
   // 写文件
   const now = dayjs();
-  const targetDir = path.join(__dirname, '../src/content/blog', `${now.year()}/${now.format('MM')}`);
+  const targetDir = path.join(__dirname, '../src/content/blog');
   try {
     await fs.mkdir(targetDir, { recursive: true });
     await fs.writeFile(path.join(targetDir, `${articleName}.md`), ArticleContent, 'utf8');

@@ -12,7 +12,7 @@ export default {
   // 作者头像
   Avatar: '/assets/images/tx.webp',
   // 网站座右铭
-  Motto: '和你想的不太一样',
+  Motto: '和你猜的不太一样',
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
   // 网站侧边栏公告 (不填写即不开启)

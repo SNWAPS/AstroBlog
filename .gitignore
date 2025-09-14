@@ -23,7 +23,5 @@ pnpm-debug.log*
 test/
 /public/vh-search.json
 
-/public/hanplayer
-/public/MineWeb
-/public/other
+
 /src/content/blog/.obsidian

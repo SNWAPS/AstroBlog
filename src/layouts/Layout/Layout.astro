@@ -74,11 +74,5 @@ import "./Layout.less";
 			data-cf-beacon='{"token": "bd32ad5b19984e94b20e1ad15b1f8a88"}'
 		></script>
 		<!-- End Cloudflare Web Analytics -->
-		<!-- Vercel速度分析 -->
-		const {(title, description)} = Astro.props;
-		<title>{title}</title>
-		<meta name="title" content={title} />
-		<meta name="description" content={description} />
-		<SpeedInsights />
 	</body>
 </html>

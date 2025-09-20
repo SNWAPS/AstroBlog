@@ -33,7 +33,7 @@ const WalineFn = async (commentDOM: string, walineInit: any) => {
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_awkward.png",
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_sleep.png",
     ],
-    // 'mail', 'link'
+    //留言必选项 昵称'nick'，邮箱'mail', 网址'link'
     requiredMeta: ['nick', 'mail'],
     imageUploader: async (file: any) => {
       const body = new FormData();

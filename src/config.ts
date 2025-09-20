@@ -125,7 +125,7 @@ export default {
   Navs: [
     // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可 <不需要文件后缀名>（封装了 SVG 组件 为了极致压缩 SVG）
     // 建议使用 https://tabler.io/icons 直接下载 SVG.
-    { text: '外链', link: '/links', icon: 'Nav_link' },
+    { text: '外链', link: '/friends', icon: 'Nav_link' },
     { text: '日常', link: '/talking', icon: 'Nav_talking' },
     { text: '留言板', link: '/message', icon: 'Nav_message' },
     { text: '更新记录', link: '/archives', icon: 'Nav_archives' },

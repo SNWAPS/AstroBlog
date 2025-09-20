@@ -1,11 +1,11 @@
 ---
 title: "留言"
 h1: "留言板 🌸"
-desc: "暂时留不了"
+desc: "欢迎留言交流，注意文明发言。"
 layout: "@/layouts/ToolLayout/ToolLayout.astro"
 type: "message"
+comment: true
 ---
-
-:::note{type="error"}
-所以请保持沉默
+:::note{type="success"}
+9.11已搭建Waline并嵌入
 :::

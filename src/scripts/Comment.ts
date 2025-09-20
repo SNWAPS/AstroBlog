@@ -24,7 +24,13 @@ const WalineFn = async (commentDOM: string, walineInit: any) => {
   const { init } = await import('@waline/client');
   walineInit = init({
     el: commentDOM, path: window.location.pathname.replace(/\/$/, ''), serverURL: SITE_INFO.Comment.Waline.serverURL,
-    emoji: ['https://registry.npmmirror.com/@waline/emojis/1.3.0/files/alus', 'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/bilibili', 'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/bmoji', 'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/qq', 'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba', 'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/weibo', 'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/soul-emoji'],
+    emoji: ['https://registry.npmmirror.com/@waline/emojis/1.3.0/files/alus',
+      'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/bilibili',
+      'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/bmoji',
+      'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/qq',
+      'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba',
+      'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/weibo',
+      'https://registry.npmmirror.com/@waline/emojis/1.3.0/files/soul-emoji'],
     reaction: [
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_agree.png",
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_look_down.png",
@@ -32,9 +38,23 @@ const WalineFn = async (commentDOM: string, walineInit: any) => {
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_pick_nose.png",
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_awkward.png",
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_sleep.png",
+      'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_heart_eyes.png',
+      'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_sob.png',
     ],
+    locale: {
+      //评论框默认显示文字
+      reactionTitle: '',
+      //等级评论数变量 0,10,20,50,100,200,500
+      level0: '炼气',
+      level1: '筑基',
+      level2: '结丹',
+      level3: '元婴',
+      level4: '化神',
+      level5: '大乘',
+      level6: '渡劫',
+    },
     //留言必选项 昵称'nick'，邮箱'mail', 网址'link'
-    requiredMeta: ['nick', 'mail'],
+    requiredMeta: ['nick'],
     imageUploader: async (file: any) => {
       const body = new FormData();
       body.append('file', file);

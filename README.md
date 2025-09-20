@@ -142,7 +142,7 @@ export default {
 		},
 		{
 			date: "2024-10-05 16:16:06",
-			tags: ["日常"],
+			tags: ["动态"],
 			content: "记录第一条说说"
 		}
 	]

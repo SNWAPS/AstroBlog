@@ -1,32 +1,15 @@
 ---
 title: "Astro-Theme【使用文档】"
 categories: Code
-tags: ["Astro"]
+tags: 
+  - Astro
 id: "Astro-Theme"
-date: 2025-03-02 18:18:18
+date: 2025-09-20 23:06:02
+updated: 2025-09-20 23:07:41
 cover: "https://i0.wp.com/uxiaohan.github.io/v2/2025/04/1743737394560.webp"
 recommend: true
 top: true
----
-## 📄 文章格式
-
-```md
----
-title: 标题
-categories: 分类
-tags:
-  - 标签1
-  - 标签2
-id: 文章ID
-date: 文章创建日期
-updated: 文章更新日期
-cover: "封面图URL (为空默认随机内置封面 /public/assets/images/banner)"
-recommend: false # 是否推荐文章
-top: false # 是否置顶文章
-hide: false # 是否隐藏文章
-<!-- 页面独有 -->
-type: "links" # 页面类型
-comment: false # 关闭页面评论（默认开启）
+hide: false
 ---
 ```
 ## 🌈 组件

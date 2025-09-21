@@ -37,7 +37,6 @@ const WalineFn = async (commentDOM: string, walineInit: any) => {
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_sunglasses.png",
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_pick_nose.png",
       "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_awkward.png",
-      "https://registry.npmmirror.com/@waline/emojis/1.3.0/files/tieba/tieba_sleep.png",
       'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_heart_eyes.png',
       'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_sob.png',
     ],

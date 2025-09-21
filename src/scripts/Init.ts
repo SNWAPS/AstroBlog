@@ -38,6 +38,8 @@ import initMobileSidebar from "@/scripts/MobileSidebar";
 import SeoPushInit from "@/scripts/SeoPush";
 // SmoothScroll 滚动优化
 import SmoothScroll from "@/scripts/Smoothscroll";
+// Han Analytics 统计
+import HanAnalyticsInit from "@/scripts/HanAnalytics";
 
 // ============================================================
 
@@ -74,6 +76,8 @@ const indexInit = async (only: boolean = true) => {
   SeoPushInit();
   // 文章评论初始化
   checkComment() && commentInit(checkComment(), commentLIst)
+  // Han Analytics 统计
+  HanAnalyticsInit();
   // 打字效果
   only && TypeWriteInit();
   // 泡泡效果

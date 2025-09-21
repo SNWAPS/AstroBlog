@@ -16,7 +16,7 @@ export default {
   // Cover 网站缩略图
   Cover: '/assets/images/banner/072c12ec85d2d3b5.webp',
   // 网站侧边栏公告 (不填写即不开启)
-  Tips: '<p>🎉欢迎光临 </p><p>这是应该是一个有营养的网站 我尽量不让它变得那么无聊💖</p>',
+  Tips: '<p>🎉欢迎光临𝑺𝑷𝑨𝑾𝑵𝑺Blog</p><p>这只是一个无聊的消遣💖</p>',
   // 首页打字机文案列表
   TypeWriteList: [
     '世事难料，诸位慢行',

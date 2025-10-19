@@ -1,5 +1,6 @@
 {
   "less.compile": {
     "out": false
-  }
+  },
+  "markdown.validate.enabled": false
 }
